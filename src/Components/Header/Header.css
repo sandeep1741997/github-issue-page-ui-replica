@@ -1,0 +1,39 @@
+.header {
+   
+    background-color:#d0d7de3d;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   
+}
+
+.header-main-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.Label {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 2em;
+}
+
+.Label--secondary {
+    /* color: #57606a; */
+    border-color: #adbbc8;
+}
+
+a {
+    color: #0969da;
+    text-decoration: none;
+    background-color: transparent;
+}

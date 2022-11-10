@@ -1,0 +1,104 @@
+.card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background-color: #d0d7de3d;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+    border: 1px solid #e0d7d7;
+}
+
+.card-body {
+    background-color: white;
+    border: 1px solid #e0d7d7;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.item {
+    font-size: 1.35rem;
+    position: relative;
+    padding: 0 1rem;
+    font-weight: 400;
+}
+
+.item::after {
+    content: '';
+    top: 9px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid #555;
+    margin: 0 0 0 0.5rem;
+    position: absolute;
+}
+
+.content-left-item {
+    margin: 0rem 0.3rem;
+    color: black;
+}
+
+.list-item {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #0000000e;
+}
+
+.title {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.status {
+    font-size: 0.85rem;
+    margin: 0.5rem 0.7rem;
+    background: #a47dee;
+    padding: 0.15rem 0.45rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.item-icon {
+    color: chartreuse;
+}
+
+.protip {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.main-cntbar {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-cntbar {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right-icon {
+    margin: 0 0.5rem;
+}
+
+.counter-txt {
+    position: relative;
+    bottom: 5px;
+    margin-left: 5px;
+}
+
+.list-item:hover,
+.list-item.active {
+    background-color: #d0d7de3d;
+}
